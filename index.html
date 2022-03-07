@@ -22,25 +22,28 @@
 
   <body class="container">
     <main>
-      <nav class="navbar navbar-expand-lg navbar-light mb-3 p-2" >
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <!--Bootstrap Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light mb-3 p-2" class="row">
+        <a class="navbar-brand col" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
-      
+        
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#Education">Education</a>
+              <a class="nav-link" href="#Education"><u>Education</u></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Experience">Experience</a>
+              <a class="nav-link" href="#Experience"><u>Experience</u></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Skills">Skills</a>
+              <a class="nav-link" href="#Skills"><u>Skills</u></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#interests">Interests</a>
+              <a class="nav-link" href="#interests"><u>Interests</u></a>
             </li>  
           </ul>
         </div>
@@ -70,7 +73,7 @@
                for all of my highschool years. In the primary stages I attended
                CBC primary from Grade R till Grade 4, I then moved to Martin primary school till Grade 7. </p>
                <p>Highest NSC Marks:</p>
-               <ul class="p-3">
+               <ul>
                  <li>EGD 80%</li>
                  <li>LO  77%</li>  
                  <li>CAT 71%</li>                      
@@ -108,7 +111,7 @@
           </ul>
         </section>
 
-       <div class="self" class="row"> 
+       <div class="self" > 
           <section id="Skill" class="col mb-3 mx-1 p-2">
             <h2 id="Skills"><u>Skills</u></h2>
             <ul>
@@ -147,12 +150,13 @@
         >079-887-0550</a
       >
     </p>
+    <!--animated images below-->
     <ul>
       <a href="https://github.com/ChadClifton" target="_blank_">
-        <img id="details" src="./images/github.jpg" alt="Chad's Github" />
+        <img id="details" class="mx-2" src="./images/github.jpg" alt="Chad's Github" />
       </a>
       <a href="mailto:chadcvm@gmail.com?" target="_blank_">
-        <img id="details" src="./images/gmail.jpg" alt="G-mail" />
+        <img id="details" class="mx-2" src="./images/gmail.jpg" alt="G-mail" />
       </a>
     </ul>
   </footer>
